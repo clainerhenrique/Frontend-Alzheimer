@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🚀 Projeto Next.js
+Este é um projeto desenvolvido com Next.js, um framework para React que permite criar aplicações web rápidas e otimizadas.
 
-## Getting Started
+✅ Pré-requisitos
+Antes de começar, você precisa ter instalado no seu computador:
 
-First, run the development server:
+Node.js (versão recomendada: LTS)
 
-```bash
+Um gerenciador de pacotes:
+
+npm (vem junto com o Node.js) ou
+
+Yarn ou
+
+pnpm ou
+
+Bun
+
+Verifique a instalação:
+
+bash
+Copiar
+Editar
+node -v
+npm -v
+📦 Como baixar o projeto
+Clone este repositório:
+
+bash
+Copiar
+Editar
+git clone https://github.com/seu-usuario/seu-repositorio.git
+Acesse a pasta do projeto:
+
+bash
+Copiar
+Editar
+cd nome-do-projeto
+Instale as dependências:
+
+bash
+Copiar
+Editar
+npm install
+# ou
+yarn install
+# ou
+pnpm install
+# ou
+bun install
+▶️ Como rodar o projeto em modo de desenvolvimento
+Execute o servidor de desenvolvimento:
+
+bash
+Copiar
+Editar
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
-```
+Depois, abra http://localhost:3000 no navegador.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📂 Estrutura básica do projeto
+csharp
+Copiar
+Editar
+├── app/              # Páginas principais e rotas
+│   ├── page.tsx      # Página inicial
+├── public/           # Arquivos estáticos (imagens, ícones etc.)
+├── styles/           # Estilos globais
+├── package.json      # Dependências e scripts
+└── README.md         # Documentação do projeto
+✏️ Como editar o projeto
+O arquivo principal da página inicial está em:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+bash
+Copiar
+Editar
+app/page.tsx
+Qualquer alteração será atualizada automaticamente no navegador (hot reload).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🌐 Deploy da aplicação
+A maneira mais fácil de publicar é usando a Vercel, criadora do Next.js:
 
-## Learn More
+Crie uma conta em Vercel
 
-To learn more about Next.js, take a look at the following resources:
+Conecte seu repositório GitHub
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Clique em Deploy
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Mais detalhes: Documentação de Deploy Next.js
 
-## Deploy on Vercel
+📚 Aprenda mais
+Documentação do Next.js
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Tutorial oficial do Next.js
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Repositório oficial no GitHub
+
+🔥 Agora é só rodar e começar a desenvolver sua aplicação!
